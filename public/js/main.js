@@ -38,10 +38,18 @@ let chiffres = [4, 5, 2, 1, 3]
 
 // ordonner les chiffres
 
-chiffres.sort();
-console.log(chiffres);
+chiffresOrdre = chiffres.sort();
+console.log(chiffresOrdre);
 
 // concatenation
+
+chiffresVar = chiffresOrdre.join('-')
+console.log(chiffresVar);
+
+// chaîne de caractères en un tableau
+
+chiffresTab = chiffresVar.split(['-']);
+console.log(chiffresTab);
 
 // 3
 
